@@ -1,0 +1,47 @@
+@charset "UTF-8";
+body{
+	font-family: Arial, sans-serif;
+	/*  background-color: #f2f2f2;--> */
+	  background-image: url("https://images.unsplash.com/photo-1579621970795-87facc2f976d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZmluYW5jZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60") ;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+}
+.expense-form {
+	width: 50%;
+	margin: auto;
+	padding: 20px;
+	background-color: #f2f2f2;
+	border-radius: 10px;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"] {
+	padding: 5px;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: none;
+}
+input[type="number"], input[type="date"] {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+button[type="submit"] {
+	padding: 10px 20px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
